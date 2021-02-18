@@ -1,1 +1,9 @@
+language: java
 
+git:
+  quiet: true
+
+# safelist
+branches:
+  only:
+  - master
