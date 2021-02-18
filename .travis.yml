@@ -6,4 +6,4 @@ git:
 # safelist
 branches:
   only:
-  - master
+  - main
