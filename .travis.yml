@@ -1,9 +1,13 @@
+arch: amd64
+
 language: java
 
-git:
-  quiet: true
+jdk: 
+  - oraclejdk15
 
-# safelist
-branches:
-  only:
-  - main
+cache:
+  directories:
+  - $HOME/.m2
+
+script:
+  - java --version
