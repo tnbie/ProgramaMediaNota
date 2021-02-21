@@ -32,9 +32,7 @@ public class CalculoNota {
 		
 		// step 5: repproval notes < 8, how much note need, base on 10 as maximmum note (10 minus medi e.g 8 - 10 = -2)
 		System.out.println("step 5");
-		
-		
-		
+			
 		
 	}
 }
