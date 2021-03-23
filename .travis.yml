@@ -11,3 +11,4 @@ cache:
 
 script:
   - java --version
+  - echo "test"
