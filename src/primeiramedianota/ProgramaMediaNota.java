@@ -1,11 +1,11 @@
-package primeiraMediaNota;
+package primeiramedianota;
 
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
 
-public class CalculoNota {
+public class ProgramaMediaNota {
 	
 	// technique: breaking code into small pieces
 	// more easy to view all code (when together)
@@ -66,6 +66,7 @@ public class CalculoNota {
 		System.out.println("Qual a nota das outras atividades no segundo bimestre? ");
 		pslmooc2 = sn.nextFloat();
 		
+		sn.close();
 		
 		// step 2: bimester 1 results
 		notaBimestre1 = ((prova1 * 3 + projeto1 * 3 + exercicios1 * 2 + pslmooc1 * 3) / 11);
